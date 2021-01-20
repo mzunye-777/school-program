@@ -35,6 +35,9 @@ printf("Please enter student's Religious_Education marks\n");
 scanf("%i",&amp;religious_education);      
 total = maths + english + kiswahili + science + religious_education;     
 printf("Your total marks is: %i\n", &amp;total);  
-if(total>=40) printf("You have passed"); 
-else {     printf("You have failed"); }  
+if(total>=40) 
+printf("You have passed"); 
+else {     
+printf("You have failed"); 
+}  
 printf("|*********Here is your result slip *******|:\n Maths:%i\n English:%i\n Kiswahili:%i\n Science:%i\n Religious Education:%i\n",&amp;maths,&amp;english,&amp;kiswahili,&amp;science,&amp;religious_education);         }  }
